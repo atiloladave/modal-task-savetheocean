@@ -49,14 +49,14 @@ li {
     color: black;
 }
 
-img {
+.infograph {
     width: 60%;
     display: flex;
     margin-left: auto;
     margin-right: auto ;
 }
 
-img:hover {
+.infograph:hover {
     content: url(./img/Destin\ infographic.png);
     width: 100%;
 }
@@ -118,11 +118,11 @@ img:hover {
     cursor: pointer;
   }
 
-  /* .modal-close-btn:hover,
+  .modal-close-btn:hover,
 .modal-close-btn:active{
-    color: red;
+    color: #d6aa19;
     cursor: pointer;
-} */
+}
 
 
 /* modal input */
@@ -158,4 +158,30 @@ input{
 
 .modal-btns-reverse{
     flex-direction: row-reverse;
+}
+
+/* modal after submit */
+
+.loading{
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+.pledge-gif{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.success-img{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.modal-display-name{
+    color: #4BB543 ;
 }
